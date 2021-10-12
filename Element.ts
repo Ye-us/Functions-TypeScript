@@ -6,7 +6,7 @@ function firstElement2<Type extends any[]>(arr: Type) {
   return arr[0];
 }
  
-// a: number (good)
+// a: number (Mau)
 const a = firstElement1([1, 2, 3]);
-// b: any (bad)
+// b: any (Bom)
 const b = firstElement2([1, 2, 3]);
